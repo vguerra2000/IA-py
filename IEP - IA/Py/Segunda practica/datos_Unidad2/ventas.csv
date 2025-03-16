@@ -1,0 +1,16 @@
+id_venta,producto,cantidad,precio_unitario,total
+1,Camiseta,3,15.99,47.97
+2,Pantalón,2,29.99,59.98
+3,Zapatillas,1,49.99,49.99
+4,Gorra,5,9.99,49.95
+5,Camiseta,1,15.99,15.99
+6,Pantalón,3,29.99,89.97
+7,Zapatillas,2,49.99,99.98
+8,Gorra,3,9.99,29.97
+9,Jersey,2,39.99,79.98
+10,Pantalón,1,29.99,29.99
+11,Zapatillas,1,49.99,49.99
+12,Jersey,1,39.99,39.99
+13,Gorra,2,9.99,19.98
+14,Camiseta,2,15.99,31.98
+15,Pantalón,4,29.99,119.96
