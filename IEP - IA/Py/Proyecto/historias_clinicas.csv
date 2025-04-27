@@ -1,0 +1,7 @@
+id_paciente,id_medico,fecha_visita,notas
+00000000A,1234,10-06-2024,Paciente acude a urgencias con severo dolor de cabeza desde hace 3 horas
+11111111B,1234,17-06-2024,Fractura de peroné con desplazamiento
+00000000A,1234,17-06-2024,Se concede el alta al paciente tras remitir el dolor
+113456789B,1234,25-04-2025,nuevo paciente
+12341234M,1234,25-04-2025,este paciente esta muy malito
+12341234H,1234,25-04-2025,El paciente esta muy malito
