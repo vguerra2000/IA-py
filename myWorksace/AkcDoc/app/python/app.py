@@ -1,9 +1,11 @@
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
 from pathlib import Path
-from fastapi.responses import FileResponse
+from app.python.api.upload import router as upload_router
 
 app = FastAPI(title="AskDoc")
+
+app.include_router(upload_router, prefix="/api")
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root():
