@@ -1,6 +1,7 @@
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent  # .../app
-UPLOAD_DIR = BASE_DIR / "uploads"
-MAX_FILE_SIZE_MB = 10
+UPLOAD_DIR = Path.cwd() / "app" / "python" / "resource" / "uploads"
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+
 ALLOWED_EXTENSIONS = {".pdf", ".docx", ".txt"}
+MAX_FILE_SIZE_MB = 10
